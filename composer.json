@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "EmbarkNow\\Journey\\Persistence": "src/"
+            "EmbarkNow\\Journey\\Persistence\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EmbarkNow\\Journey\\Tests\\Persistence": "tests/"
+            "EmbarkNow\\Journey\\Tests\\Persistence\\": "tests/"
         }
     },
     "require-dev": {
