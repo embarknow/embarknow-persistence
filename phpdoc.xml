@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdoc>
-    <title>Beagle Common Components</title>
+    <title>EmbarkNow Persistence</title>
     <parser>
         <target>doc/api</target>
     </parser>
