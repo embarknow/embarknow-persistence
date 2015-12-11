@@ -9,14 +9,14 @@ interface GenericClientAwareInterface
 {
     /**
      * Set a generic Client instance
-     * @param  mixed $client
+     * @param  mixed $genericClient
      * @return self
      */
-    public function setClient($client);
+    public function setGeneridClient($genericClient);
 
     /**
      * Get the generic Client instance
      * @return mixed
      */
-    public function getClient();
+    public function getGenericClient();
 }
