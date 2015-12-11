@@ -1,6 +1,6 @@
 {
     "name": "embarknow/persistence",
-    "description": "Persistence interfaces for Journey",
+    "description": "Persistence interfaces",
     "license": "MIT",
     "authors": [
         {
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "EmbarkNow\\Journey\\Persistence\\": "src/"
+            "EmbarkNow\\Persistence\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EmbarkNow\\Journey\\Tests\\Persistence\\": "tests/"
+            "EmbarkNow\\Tests\\Persistence\\": "tests/"
         }
     },
     "require-dev": {
