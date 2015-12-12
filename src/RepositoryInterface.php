@@ -14,12 +14,14 @@ interface RepositoryInterface
      * @param  array  $sorting
      * @param  array  $pagination
      * @return array
+     * @throws RepositoryException
      */
     public function fetch(array $filters, array $sorting = [], array $pagination = []);
 
     /**
      * Get a single result by it's ID
      * @return array
+     * @throws RepositoryException
      */
     public function get($id);
 }

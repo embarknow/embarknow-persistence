@@ -13,6 +13,7 @@ interface GatewayInterface
      * @param  array  $fields
      * @param  string $store
      * @return int
+     * @throws GatewayException
      */
     public function create(array $fields, $store);
 
@@ -22,6 +23,7 @@ interface GatewayInterface
      * @param  string $store
      * @param  array  $fields Optional
      * @return array
+     * @throws GatewayException
      */
     public function retrieve(array $filters, $store, array $fields = []);
 
@@ -31,6 +33,7 @@ interface GatewayInterface
      * @param  array  $filters
      * @param  string $store
      * @return boolean
+     * @throws GatewayException
      */
     public function update(array $fields, array $filters, $store);
 
@@ -39,6 +42,7 @@ interface GatewayInterface
      * @param  array  $filters
      * @param  string $store
      * @return boolean
+     * @throws GatewayException
      */
     public function delete(array $filters, $store);
 
@@ -46,6 +50,7 @@ interface GatewayInterface
      * Execute an arbitrary statement in the data layer
      * @param  string $statement
      * @return boolean
+     * @throws GatewayException
      */
     public function execute($statement);
 }
