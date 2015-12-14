@@ -36,4 +36,16 @@ interface StatementInterface extends Countable, IteratorAggregate
      * @return boolean
      */
     public function flush();
+
+    /**
+     * Whether this Statement has resulted in errors
+     * @return boolean
+     */
+    public function hasErrors();
+
+    /**
+     * Get any resultant errors
+     * @return array
+     */
+    public function getErrors();
 }

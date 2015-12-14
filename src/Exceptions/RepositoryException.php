@@ -2,7 +2,9 @@
 
 namespace EmabrkNow\Persistence\Exceptions;
 
-class RepositoryException extends Exceptions
+use Exception;
+
+class RepositoryException extends Exception
 {
 
 }

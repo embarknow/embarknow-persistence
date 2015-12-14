@@ -2,7 +2,9 @@
 
 namespace EmabrkNow\Persistence\Exceptions;
 
-class GatewayException extends Exceptions
+use Exception;
+
+class GatewayException extends Exception
 {
 
 }
