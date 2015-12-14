@@ -1,6 +1,6 @@
 <?php
 
-namespace EmabrkNow\Persistence\Exceptions;
+namespace EmabarkNow\Persistence\Exceptions;
 
 use Exception;
 
