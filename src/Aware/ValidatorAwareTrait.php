@@ -3,7 +3,7 @@
 namespace EmbarkNow\Persistence\Aware;
 
 /**
- * Persistence Entity Validator awareness
+ * Persistence Entity Validator awareness.
  */
 trait ValidatorAwareTrait
 {
@@ -13,8 +13,10 @@ trait ValidatorAwareTrait
     protected $validator;
 
     /**
-     * Set a validator instance. The type is not concrete
+     * Set a validator instance. The type is not concrete.
+     *
      * @param mixed $validator
+     *
      * @return self
      */
     public function setValidator($validator)
@@ -27,7 +29,8 @@ trait ValidatorAwareTrait
     }
 
     /**
-     * Get the validator instance
+     * Get the validator instance.
+     *
      * @return mixed
      */
     public function getValidator()

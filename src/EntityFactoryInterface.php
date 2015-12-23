@@ -2,19 +2,19 @@
 
 namespace EmbarkNow\Persistence;
 
-use EmbarkNow\Persistence\EntityInterface;
+use EmbarkNow\ManifoldFactory\FactoryInterface;
 
 /**
- * Persistence Entity Factory
+ * Persistence Entity Factory.
  */
-interface EntityFactoryInterface
+interface EntityFactoryInterface extends FactoryInterface
 {
     /**
-     * Make an instance of an Entity
-     * @param  array  $data
-     * @param  array  $ctorArgs
-     * @param  array  $postMethods
+     * Make an instance of an Entity.
+     *
+     * @param array $data
+     *
      * @return EntityInterface
      */
-    public function make(array $data, array $ctorArgs = [], array $postMethods = []);
+    public function makeEntity(array $data);
 }
