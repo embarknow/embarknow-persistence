@@ -1,5 +1,5 @@
 {
-    "name": "embarknow/persistence",
+    "name": "embarknow/persistence-repository",
     "description": "Persistence interfaces",
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
         },
         {
             "type": "git",
-            "url": "git://github.com/embarknow/persistence"
+            "url": "git://github.com/embarknow/persistence-repository"
         }
     ],
     "require": {

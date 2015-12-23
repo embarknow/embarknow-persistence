@@ -2,6 +2,8 @@
 
 namespace EmbarkNow\Persistence\Exceptions;
 
-class RepositoryException extends PersistenceException
+use RuntimeException;
+
+class RepositoryException extends RuntimeException
 {
 }
